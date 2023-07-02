@@ -1,17 +1,24 @@
 * {
   font-family: 'Roboto', sans-serif;
 }
+
 body {
-  background: #ee9ca7;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to bottom, #ffdde1, #ee9ca7);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to bottom, #ffdde1, #ee9ca7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: #ee9ca7;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to bottom, #ffdde1, #ee9ca7);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to bottom, #ffdde1, #ee9ca7);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
 }
 
 .header {
-  background: #4AC29A;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to bottom, #BDFFF3, #4AC29A);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to bottom, #BDFFF3, #4AC29A); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: #4AC29A;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to bottom, #BDFFF3, #4AC29A);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to bottom, #BDFFF3, #4AC29A);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
 
 }
@@ -31,21 +38,26 @@ h1 {
   margin: auto auto;
 }
 
+strong {
+  color: red;
+}
+
 .spisok {
   width: 90%;
   text-align: center;
-  
+
 }
-ul > li {
+
+ul>li {
   list-style: none;
   background: rgb(44, 210, 239);
   width: 40%;
   font-size: 22px;
-    color: black;
-    display: inline-block;
-    padding: 20px 30px;
-    margin: 10px 10px 10px 0;
-    border-radius: 30px;
+  color: black;
+  display: inline-block;
+  padding: 20px 30px;
+  margin: 10px 10px 10px 0;
+  border-radius: 30px;
 }
 
 
@@ -70,6 +82,19 @@ ul > li {
   margin: 0 auto;
 }
 
+.header__footer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.mandatory-literature {
+  color: #0000EE;
+}
+
+.additional-literature {
+  color: red;
+}
+
 p {
   font-size: 22px;
   font-weight: 700;
@@ -88,7 +113,7 @@ p {
 }
 
 .card {
-  margin: 1.5em;
+  margin: 2.5em;
 }
 
 .card img {
@@ -144,6 +169,7 @@ a {
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(5);
   }
+
   .header-list {
     flex-direction: column;
   }
